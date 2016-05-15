@@ -1,4 +1,12 @@
-@import typography;
+//mixins
+@import 'scss/mixins/flex.scss';
+
+//base
+@import 'scss/reset';
+@import 'scss/typography';
+
+
 
 //modules
+@import 'scss/forms';
 @import 'scss/login';

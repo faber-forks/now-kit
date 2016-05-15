@@ -1,1 +1,10 @@
-login
+.login {
+	background: url('img/login.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+	@include flexbox;
+	@include justify-content(center);
+	@include align-items(center);
+}
