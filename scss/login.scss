@@ -1,4 +1,5 @@
 .login {
+	font-weight: light;
 	background: url('img/login.png');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -7,4 +8,27 @@
 	@include flexbox;
 	@include justify-content(center);
 	@include align-items(center);
+	@include flex-direction(column);
+	
+	input {
+		margin-top: 14px;
+		color: #FFF;
+		background: rgba(255,255,255,0.2);
+
+
+		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		  color: #FFF;
+		}
+		&::-moz-placeholder { /* Firefox 19+ */
+		  color: #FFF;
+		}
+		&:-ms-input-placeholder { /* IE 10+ */
+		  color: #FFF;
+		}
+		&:-moz-placeholder { /* Firefox 18- */
+		  color: #FFF;
+		}
+	}
+
+
 }
