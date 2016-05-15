@@ -3,6 +3,7 @@ form {
 	@include align-items(center);
 	@include justify-content(center);
 	@include flex-direction(column);
+	max-width: 100%;
 }
 
 input {
@@ -11,16 +12,19 @@ input {
 	border-radius: 25px;
 	border: 0;
 	padding: 16px 28px;
+	max-width: 100%;
 	&:focus {
 		outline: none;
 	}
 }
 
 .btn {
+	display: inline-block;
+	width: 100%;
 	font-size: 0.86em;
 	border-radius: 25px;
 	padding: 16px 38px;
-
+	cursor: pointer;
 }
 
 .btn-orange {
