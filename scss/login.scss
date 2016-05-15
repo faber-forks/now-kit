@@ -10,12 +10,18 @@
 	@include align-items(center);
 	@include flex-direction(column);
 	
+
+	input, button {
+		max-width: 100%;
+		width: 100%;;
+	}
+
+	
 	input {
 		margin-top: 14px;
 		color: #FFF;
 		background: rgba(255,255,255,0.2);
-
-
+		
 		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 		  color: #FFF;
 		}
@@ -30,5 +36,8 @@
 		}
 	}
 
+	.btn {
+		margin-top: 12px;
 
+	}
 }

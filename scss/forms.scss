@@ -1,10 +1,30 @@
+form {
+	@include flexbox;
+	@include align-items(center);
+	@include justify-content(center);
+	@include flex-direction(column);
+}
+
 input {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.2em;
-	border-radius: 18px;
+	font-size: 0.86em;
+	border-radius: 25px;
 	border: 0;
-	padding: 12px 24px;
+	padding: 16px 28px;
 	&:focus {
 		outline: none;
 	}
+}
+
+.btn {
+	font-size: 0.86em;
+	border-radius: 25px;
+	padding: 16px 38px;
+
+}
+
+.btn-orange {
+	background-color: $now-orange;
+	color: #FFF;
+	border: 0px;
 }
