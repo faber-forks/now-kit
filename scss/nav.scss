@@ -12,6 +12,7 @@
 
 .off-canvas-menu {
 	@include transition(.3s);
+	@include translate3d(-100%,0,0);
 	position: fixed;
 	top: 0;
 	left: 0;
