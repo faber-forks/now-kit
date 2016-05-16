@@ -66,6 +66,9 @@ body {
   padding-left: 10px;
   padding-right: 10px; }
 
+#masthead {
+  background-color: #e55121; }
+
 form {
   display: -webkit-box;
   display: -webkit-flex;
