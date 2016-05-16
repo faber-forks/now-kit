@@ -16,11 +16,24 @@
 		width: 100%;;
 	}
 
-	
+	.logo {
+		padding-bottom: 60px;
+		max-width: 120px;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	form {
+		width: 320px;
+		max-width: 100%;
+	}
+
+
 	input {
 		margin-top: 14px;
 		color: #FFF;
-		background: rgba(255,255,255,0.2);
+		background: rgba(255,255,255,0.15);
 		
 		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 		  color: #FFF;
@@ -34,6 +47,23 @@
 		&:-moz-placeholder { /* Firefox 18- */
 		  color: #FFF;
 		}
+	}
+
+	.username, .password {
+		background-repeat: no-repeat;
+		
+		background-position: center left 15px;
+		text-indent: 30px;
+	}
+
+	.username {
+		background-image: url('img/username.png');
+		background-size: 24px 24px;
+	}
+
+	.password {
+		background-image: url('img/password.png');
+		background-size: 24px 29px;
 	}
 
 	.btn {
